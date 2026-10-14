@@ -1,0 +1,18 @@
+// 备用构建路线(主路线是零网络的 build.sh)。
+// 本工程不声明任何 repository,依赖只有本地 libs/desktop.jar,离线可构建。
+plugins {
+    id 'java'
+}
+
+compileJava {
+    options.release = 17
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    compileOnly files('libs/desktop.jar')
+}
+
+jar {
+    archiveFileName = 'blackstart-dev.jar'
+}

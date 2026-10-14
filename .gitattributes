@@ -1,0 +1,5 @@
+# 统一换行:仓库内一律 LF,检出后跨平台一致(避免 CRLF 假象;bash 脚本与逐字节对拍依赖)
+* text=auto eol=lf
+# 二进制显式声明,不做换行转换
+*.png binary
+*.jar binary

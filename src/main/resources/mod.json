@@ -1,0 +1,10 @@
+{
+  "displayName": "工业纪元",
+  "name": "blackstart",
+  "author": "TBD",
+  "main": "blackstart.BlackstartMod",
+  "description": "工业纪元 0.5 测试版。当前提供电网分区、多源与多级工程输电、逐线限流、原版发电适配、保护、储能及黑启动。工业时代、统一拟真难度、自有星球和科技树属于未来规划。构建号 flow-20261014-publish；联机双方须使用相同构建。",
+  "version": "0.5",
+  "minGameVersion": 160,
+  "java": true
+}

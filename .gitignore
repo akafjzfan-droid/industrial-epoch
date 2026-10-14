@@ -1,0 +1,32 @@
+# 构建产物与工作目录(不入库)
+*.jar
+build/
+build-*/
+out/
+out-*/
+stage-*/
+_backup-*/
+_diag-*/
+_e2e-*/
+_extract-*/
+
+# Only the reviewed installable package is distributed.
+!downloads/
+!downloads/*.jar
+dist/
+libs/
+evidence/
+baseline/
+backups/
+docs/
+progress.md
+AGENTS.md
+*.msav
+*.msav.*
+*任务书*.md
+*任务-*.md
+*契约*.md
+*台账*.md
+*施工*.md
+*交付-*.md
+*resume*.md
