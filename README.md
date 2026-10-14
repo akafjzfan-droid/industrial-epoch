@@ -64,3 +64,11 @@ java tools/Build.java /path/to/desktop.jar
 构建输出为 `dist/blackstart-0.5-test.jar`；这是沿用内部标识的文件名，包内玩家名称为“工业纪元”。`build.sh`和Gradle保留为备用构建方式，输出位置不同。
 
 仓库包含运行源码、必要资源、构建工具、可安装包及玩家规划；测试存档、本机工具链、内部任务书和施工台账不随本次更新分发。
+
+## 许可证
+
+Copyright (C) 2026 akafjzfan-droid。
+
+除另有声明的第三方内容外，工业纪元的原创代码与资源采用 GNU General Public License v3.0（仅第3版，SPDX：`GPL-3.0-only`）。你可以使用、修改和再分发；分发本项目或受该许可证覆盖的修改版时，应保留版权与许可声明，并按 GPL 提供对应源码。完整条款见 [LICENSE](LICENSE)。软件按原样提供，不作任何担保。
+
+Mindustry 及其他第三方依赖、代码和资源的版权与许可保持各自原有声明。
